@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report</title>
+    <link rel="stylesheet" type="text/css" href="web.css">
+</head>
+<body>
+<table class="grid">
+    <tr>
+        <th>ID:</th>
+        <th>Name:</th>
+        <th>Num Loc:</th>
+        <th>Avg value:</th>
+        <th>Categories:</th>
+    </tr>
+
+    % for r in report:
+    <tr>
+        <td>{{r[0]}}</td>
+        <td>{{r[1]}}</td>
+        <td>{{r[2]}}</td>
+        <td>{{r[3]}}</td>
+        <td>{{r[4]}}</td>
+    </tr>
+    % end
+</table>
+
+</body>
+</html>

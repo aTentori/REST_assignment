@@ -1,0 +1,16 @@
+html {
+    background-color: dimgrey;
+}
+
+body {
+    background-color: red;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+table.grid, table.grid th, table.grid td {
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 3px;
+}
